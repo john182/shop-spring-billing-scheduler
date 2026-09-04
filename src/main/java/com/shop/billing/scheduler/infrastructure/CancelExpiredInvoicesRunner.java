@@ -1,4 +1,4 @@
-package com.shop.billing.scheduler.infrastructure.security;
+package com.shop.billing.scheduler.infrastructure;
 
 import com.shop.billing.scheduler.application.CancelExpiredInvoicesApplicationService;
 import lombok.RequiredArgsConstructor;

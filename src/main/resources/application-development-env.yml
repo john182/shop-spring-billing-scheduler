@@ -9,3 +9,11 @@ spring:
         jwt:
           issuer-uri: http://shop-authorization-server:8081
           #jwk-set-uri: http://127.0.0.1:8081/oauth2/jwks
+
+
+shop:
+  integrations:
+    payment:
+      fastpay:
+        hostname: http://localhost:9995
+        private-token: SSEewtC6Ps5yJLdB6SJmh1bqJXgRbCdf8ocDj2hU
